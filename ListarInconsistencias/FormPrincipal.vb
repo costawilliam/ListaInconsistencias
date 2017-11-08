@@ -5,6 +5,7 @@ Public Class FormPrincipal
     Dim _Metodos As New Metodos
     Dim Conexao As String
     Dim Query As String = ""
+    Dim Conectado As Boolean = False
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LbConectar.Text = "Conectar"
@@ -14,7 +15,6 @@ Public Class FormPrincipal
         TxtCaminho.ReadOnly = True
         TxtCaminho.Visible = False
         LbCaminho.Visible = False
-
     End Sub
 
     Public Sub Inicializar(c As String)
@@ -40,10 +40,12 @@ Public Class FormPrincipal
     Private Sub LbConectar_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LbConectar.LinkClicked
         If LbConectar.Text = "Conectar" Then
             LerArquivoOpenFile()
-            TxtCaminho.Visible = True
-            LbCaminho.Visible = True
-            dgDados.Visible = True
-            MoveItem(600, 0)
+            If Conectado = True Then
+                TxtCaminho.Visible = True
+                LbCaminho.Visible = True
+                dgDados.Visible = True
+                MoveItem(600, 0)
+            End If
         Else
             TxtCaminho.Visible = False
             LbCaminho.Visible = False
@@ -72,8 +74,10 @@ Public Class FormPrincipal
                         If (TestaArquivo.Contains("Standard Jet DB")) Then
                             Inicializar(OpenFile.FileName)
                             TxtCaminho.Text = OpenFile.FileName
+                            Conectado = True
                         Else
                             TxtCaminho.Text = ""
+                            Conectado = False
                             MsgBox("Arquivo selecionado não é válido!", vbExclamation)
                         End If
 
