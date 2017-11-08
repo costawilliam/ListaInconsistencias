@@ -23,20 +23,20 @@ Partial Class FormPrincipal
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.dgDados = New System.Windows.Forms.DataGridView()
-        Me.lbConectar = New System.Windows.Forms.LinkLabel()
-        Me.btnFuncionarios = New System.Windows.Forms.Button()
-        Me.btnUsuarios = New System.Windows.Forms.Button()
-        Me.btnBatidas = New System.Windows.Forms.Button()
-        Me.btnFiscais = New System.Windows.Forms.Button()
-        Me.btnJustificativas = New System.Windows.Forms.Button()
-        Me.btnCalculos = New System.Windows.Forms.Button()
-        Me.lbCaminho = New System.Windows.Forms.Label()
-        Me.txtCaminho = New System.Windows.Forms.TextBox()
-        Me.lbStatus = New System.Windows.Forms.Label()
-        Me.btnEventos = New System.Windows.Forms.Button()
-        Me.btnFuncoes = New System.Windows.Forms.Button()
-        Me.txtQuery = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.LbConectar = New System.Windows.Forms.LinkLabel()
+        Me.BtnFuncionarios = New System.Windows.Forms.Button()
+        Me.BtnUsuarios = New System.Windows.Forms.Button()
+        Me.BtnBatidas = New System.Windows.Forms.Button()
+        Me.BtnFiscais = New System.Windows.Forms.Button()
+        Me.BtnJustificativas = New System.Windows.Forms.Button()
+        Me.BtnCalculos = New System.Windows.Forms.Button()
+        Me.LbCaminho = New System.Windows.Forms.Label()
+        Me.TxtCaminho = New System.Windows.Forms.TextBox()
+        Me.LbStatus = New System.Windows.Forms.Label()
+        Me.BtnEventos = New System.Windows.Forms.Button()
+        Me.BtnFuncoes = New System.Windows.Forms.Button()
+        Me.TxtQuery = New System.Windows.Forms.TextBox()
+        Me.LbQuery = New System.Windows.Forms.Label()
         CType(Me.dgDados, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -54,158 +54,158 @@ Partial Class FormPrincipal
         Me.dgDados.Size = New System.Drawing.Size(532, 260)
         Me.dgDados.TabIndex = 0
         '
-        'lbConectar
+        'LbConectar
         '
-        Me.lbConectar.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lbConectar.AutoSize = True
-        Me.lbConectar.Location = New System.Drawing.Point(22, 12)
-        Me.lbConectar.Name = "lbConectar"
-        Me.lbConectar.Size = New System.Drawing.Size(68, 13)
-        Me.lbConectar.TabIndex = 5
-        Me.lbConectar.TabStop = True
-        Me.lbConectar.Text = "Desconectar"
+        Me.LbConectar.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.LbConectar.AutoSize = True
+        Me.LbConectar.Location = New System.Drawing.Point(22, 12)
+        Me.LbConectar.Name = "LbConectar"
+        Me.LbConectar.Size = New System.Drawing.Size(68, 13)
+        Me.LbConectar.TabIndex = 5
+        Me.LbConectar.TabStop = True
+        Me.LbConectar.Text = "Desconectar"
         '
-        'btnFuncionarios
+        'BtnFuncionarios
         '
-        Me.btnFuncionarios.Location = New System.Drawing.Point(12, 37)
-        Me.btnFuncionarios.Name = "btnFuncionarios"
-        Me.btnFuncionarios.Size = New System.Drawing.Size(142, 23)
-        Me.btnFuncionarios.TabIndex = 6
-        Me.btnFuncionarios.Text = "Funcionários"
-        Me.btnFuncionarios.UseVisualStyleBackColor = True
+        Me.BtnFuncionarios.Location = New System.Drawing.Point(12, 37)
+        Me.BtnFuncionarios.Name = "BtnFuncionarios"
+        Me.BtnFuncionarios.Size = New System.Drawing.Size(142, 23)
+        Me.BtnFuncionarios.TabIndex = 6
+        Me.BtnFuncionarios.Text = "Funcionários"
+        Me.BtnFuncionarios.UseVisualStyleBackColor = True
         '
-        'btnUsuarios
+        'BtnUsuarios
         '
-        Me.btnUsuarios.Location = New System.Drawing.Point(12, 66)
-        Me.btnUsuarios.Name = "btnUsuarios"
-        Me.btnUsuarios.Size = New System.Drawing.Size(142, 23)
-        Me.btnUsuarios.TabIndex = 7
-        Me.btnUsuarios.Text = "Usuários"
-        Me.btnUsuarios.UseVisualStyleBackColor = True
+        Me.BtnUsuarios.Location = New System.Drawing.Point(12, 66)
+        Me.BtnUsuarios.Name = "BtnUsuarios"
+        Me.BtnUsuarios.Size = New System.Drawing.Size(142, 23)
+        Me.BtnUsuarios.TabIndex = 7
+        Me.BtnUsuarios.Text = "Usuários"
+        Me.BtnUsuarios.UseVisualStyleBackColor = True
         '
-        'btnBatidas
+        'BtnBatidas
         '
-        Me.btnBatidas.Location = New System.Drawing.Point(12, 95)
-        Me.btnBatidas.Name = "btnBatidas"
-        Me.btnBatidas.Size = New System.Drawing.Size(142, 23)
-        Me.btnBatidas.TabIndex = 8
-        Me.btnBatidas.Text = "Batidas"
-        Me.btnBatidas.UseVisualStyleBackColor = True
+        Me.BtnBatidas.Location = New System.Drawing.Point(12, 95)
+        Me.BtnBatidas.Name = "BtnBatidas"
+        Me.BtnBatidas.Size = New System.Drawing.Size(142, 23)
+        Me.BtnBatidas.TabIndex = 8
+        Me.BtnBatidas.Text = "Batidas"
+        Me.BtnBatidas.UseVisualStyleBackColor = True
         '
-        'btnFiscais
+        'BtnFiscais
         '
-        Me.btnFiscais.Location = New System.Drawing.Point(12, 243)
-        Me.btnFiscais.Name = "btnFiscais"
-        Me.btnFiscais.Size = New System.Drawing.Size(142, 23)
-        Me.btnFiscais.TabIndex = 11
-        Me.btnFiscais.Text = "Fiscais"
-        Me.btnFiscais.UseVisualStyleBackColor = True
+        Me.BtnFiscais.Location = New System.Drawing.Point(12, 243)
+        Me.BtnFiscais.Name = "BtnFiscais"
+        Me.BtnFiscais.Size = New System.Drawing.Size(142, 23)
+        Me.BtnFiscais.TabIndex = 11
+        Me.BtnFiscais.Text = "Fiscais"
+        Me.BtnFiscais.UseVisualStyleBackColor = True
         '
-        'btnJustificativas
+        'BtnJustificativas
         '
-        Me.btnJustificativas.Location = New System.Drawing.Point(12, 214)
-        Me.btnJustificativas.Name = "btnJustificativas"
-        Me.btnJustificativas.Size = New System.Drawing.Size(142, 23)
-        Me.btnJustificativas.TabIndex = 10
-        Me.btnJustificativas.Text = "Justificativas"
-        Me.btnJustificativas.UseVisualStyleBackColor = True
+        Me.BtnJustificativas.Location = New System.Drawing.Point(12, 214)
+        Me.BtnJustificativas.Name = "BtnJustificativas"
+        Me.BtnJustificativas.Size = New System.Drawing.Size(142, 23)
+        Me.BtnJustificativas.TabIndex = 10
+        Me.BtnJustificativas.Text = "Justificativas"
+        Me.BtnJustificativas.UseVisualStyleBackColor = True
         '
-        'btnCalculos
+        'BtnCalculos
         '
-        Me.btnCalculos.Location = New System.Drawing.Point(12, 125)
-        Me.btnCalculos.Name = "btnCalculos"
-        Me.btnCalculos.Size = New System.Drawing.Size(142, 23)
-        Me.btnCalculos.TabIndex = 9
-        Me.btnCalculos.Text = "Cálculos"
-        Me.btnCalculos.UseVisualStyleBackColor = True
+        Me.BtnCalculos.Location = New System.Drawing.Point(12, 125)
+        Me.BtnCalculos.Name = "BtnCalculos"
+        Me.BtnCalculos.Size = New System.Drawing.Size(142, 23)
+        Me.BtnCalculos.TabIndex = 9
+        Me.BtnCalculos.Text = "Cálculos"
+        Me.BtnCalculos.UseVisualStyleBackColor = True
         '
-        'lbCaminho
+        'LbCaminho
         '
-        Me.lbCaminho.AutoSize = True
-        Me.lbCaminho.Location = New System.Drawing.Point(100, 12)
-        Me.lbCaminho.Name = "lbCaminho"
-        Me.lbCaminho.Size = New System.Drawing.Size(54, 13)
-        Me.lbCaminho.TabIndex = 12
-        Me.lbCaminho.Text = "Caminho: "
+        Me.LbCaminho.AutoSize = True
+        Me.LbCaminho.Location = New System.Drawing.Point(100, 12)
+        Me.LbCaminho.Name = "LbCaminho"
+        Me.LbCaminho.Size = New System.Drawing.Size(54, 13)
+        Me.LbCaminho.TabIndex = 12
+        Me.LbCaminho.Text = "Caminho: "
         '
-        'txtCaminho
+        'TxtCaminho
         '
-        Me.txtCaminho.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.TxtCaminho.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtCaminho.Location = New System.Drawing.Point(160, 8)
-        Me.txtCaminho.Name = "txtCaminho"
-        Me.txtCaminho.Size = New System.Drawing.Size(463, 20)
-        Me.txtCaminho.TabIndex = 13
+        Me.TxtCaminho.Location = New System.Drawing.Point(160, 8)
+        Me.TxtCaminho.Name = "TxtCaminho"
+        Me.TxtCaminho.Size = New System.Drawing.Size(463, 20)
+        Me.TxtCaminho.TabIndex = 13
         '
-        'lbStatus
+        'LbStatus
         '
-        Me.lbStatus.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.lbStatus.AutoSize = True
-        Me.lbStatus.Location = New System.Drawing.Point(163, 299)
-        Me.lbStatus.Name = "lbStatus"
-        Me.lbStatus.Size = New System.Drawing.Size(77, 13)
-        Me.lbStatus.TabIndex = 14
-        Me.lbStatus.Text = "Desconectado"
+        Me.LbStatus.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.LbStatus.AutoSize = True
+        Me.LbStatus.Location = New System.Drawing.Point(163, 299)
+        Me.LbStatus.Name = "LbStatus"
+        Me.LbStatus.Size = New System.Drawing.Size(77, 13)
+        Me.LbStatus.TabIndex = 14
+        Me.LbStatus.Text = "Desconectado"
         '
-        'btnEventos
+        'BtnEventos
         '
-        Me.btnEventos.Location = New System.Drawing.Point(12, 154)
-        Me.btnEventos.Name = "btnEventos"
-        Me.btnEventos.Size = New System.Drawing.Size(142, 23)
-        Me.btnEventos.TabIndex = 15
-        Me.btnEventos.Text = "Eventos"
-        Me.btnEventos.UseVisualStyleBackColor = True
+        Me.BtnEventos.Location = New System.Drawing.Point(12, 154)
+        Me.BtnEventos.Name = "BtnEventos"
+        Me.BtnEventos.Size = New System.Drawing.Size(142, 23)
+        Me.BtnEventos.TabIndex = 15
+        Me.BtnEventos.Text = "Eventos"
+        Me.BtnEventos.UseVisualStyleBackColor = True
         '
-        'btnFuncoes
+        'BtnFuncoes
         '
-        Me.btnFuncoes.Location = New System.Drawing.Point(12, 183)
-        Me.btnFuncoes.Name = "btnFuncoes"
-        Me.btnFuncoes.Size = New System.Drawing.Size(142, 23)
-        Me.btnFuncoes.TabIndex = 16
-        Me.btnFuncoes.Text = "Funções Equipamento"
-        Me.btnFuncoes.UseVisualStyleBackColor = True
+        Me.BtnFuncoes.Location = New System.Drawing.Point(12, 183)
+        Me.BtnFuncoes.Name = "BtnFuncoes"
+        Me.BtnFuncoes.Size = New System.Drawing.Size(142, 23)
+        Me.BtnFuncoes.TabIndex = 16
+        Me.BtnFuncoes.Text = "Funções Equipamento"
+        Me.BtnFuncoes.UseVisualStyleBackColor = True
         '
-        'txtQuery
+        'TxtQuery
         '
-        Me.txtQuery.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.TxtQuery.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtQuery.Location = New System.Drawing.Point(160, 323)
-        Me.txtQuery.Multiline = True
-        Me.txtQuery.Name = "txtQuery"
-        Me.txtQuery.ReadOnly = True
-        Me.txtQuery.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtQuery.Size = New System.Drawing.Size(532, 104)
-        Me.txtQuery.TabIndex = 17
+        Me.TxtQuery.Location = New System.Drawing.Point(160, 323)
+        Me.TxtQuery.Multiline = True
+        Me.TxtQuery.Name = "TxtQuery"
+        Me.TxtQuery.ReadOnly = True
+        Me.TxtQuery.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.TxtQuery.Size = New System.Drawing.Size(532, 104)
+        Me.TxtQuery.TabIndex = 17
         '
-        'Label2
+        'LbQuery
         '
-        Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(73, 326)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(81, 13)
-        Me.Label2.TabIndex = 18
-        Me.Label2.Text = "Query Utilizada:"
+        Me.LbQuery.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.LbQuery.AutoSize = True
+        Me.LbQuery.Location = New System.Drawing.Point(73, 326)
+        Me.LbQuery.Name = "LbQuery"
+        Me.LbQuery.Size = New System.Drawing.Size(81, 13)
+        Me.LbQuery.TabIndex = 18
+        Me.LbQuery.Text = "Query Utilizada:"
         '
         'FormPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(704, 444)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.txtQuery)
-        Me.Controls.Add(Me.btnFuncoes)
-        Me.Controls.Add(Me.btnEventos)
-        Me.Controls.Add(Me.lbStatus)
-        Me.Controls.Add(Me.txtCaminho)
-        Me.Controls.Add(Me.lbCaminho)
-        Me.Controls.Add(Me.btnFiscais)
-        Me.Controls.Add(Me.btnJustificativas)
-        Me.Controls.Add(Me.btnCalculos)
-        Me.Controls.Add(Me.btnBatidas)
-        Me.Controls.Add(Me.btnUsuarios)
-        Me.Controls.Add(Me.btnFuncionarios)
-        Me.Controls.Add(Me.lbConectar)
+        Me.Controls.Add(Me.LbQuery)
+        Me.Controls.Add(Me.TxtQuery)
+        Me.Controls.Add(Me.BtnFuncoes)
+        Me.Controls.Add(Me.BtnEventos)
+        Me.Controls.Add(Me.LbStatus)
+        Me.Controls.Add(Me.TxtCaminho)
+        Me.Controls.Add(Me.LbCaminho)
+        Me.Controls.Add(Me.BtnFiscais)
+        Me.Controls.Add(Me.BtnJustificativas)
+        Me.Controls.Add(Me.BtnCalculos)
+        Me.Controls.Add(Me.BtnBatidas)
+        Me.Controls.Add(Me.BtnUsuarios)
+        Me.Controls.Add(Me.BtnFuncionarios)
+        Me.Controls.Add(Me.LbConectar)
         Me.Controls.Add(Me.dgDados)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.MaximizeBox = False
@@ -219,18 +219,18 @@ Partial Class FormPrincipal
     End Sub
 
     Friend WithEvents dgDados As DataGridView
-    Friend WithEvents lbConectar As LinkLabel
-    Friend WithEvents btnFuncionarios As Button
-    Friend WithEvents btnUsuarios As Button
-    Friend WithEvents btnBatidas As Button
-    Friend WithEvents btnFiscais As Button
-    Friend WithEvents btnJustificativas As Button
-    Friend WithEvents btnCalculos As Button
-    Friend WithEvents lbCaminho As Label
-    Friend WithEvents txtCaminho As TextBox
-    Friend WithEvents lbStatus As Label
-    Friend WithEvents btnEventos As Button
-    Friend WithEvents btnFuncoes As Button
-    Friend WithEvents txtQuery As TextBox
-    Friend WithEvents Label2 As Label
+    Friend WithEvents LbConectar As LinkLabel
+    Friend WithEvents BtnFuncionarios As Button
+    Friend WithEvents BtnUsuarios As Button
+    Friend WithEvents BtnBatidas As Button
+    Friend WithEvents BtnFiscais As Button
+    Friend WithEvents BtnJustificativas As Button
+    Friend WithEvents BtnCalculos As Button
+    Friend WithEvents LbCaminho As Label
+    Friend WithEvents TxtCaminho As TextBox
+    Friend WithEvents LbStatus As Label
+    Friend WithEvents BtnEventos As Button
+    Friend WithEvents BtnFuncoes As Button
+    Friend WithEvents TxtQuery As TextBox
+    Friend WithEvents LbQuery As Label
 End Class
