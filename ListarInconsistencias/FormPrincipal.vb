@@ -202,7 +202,7 @@ Public Class FormPrincipal
         End If
     End Sub
 
-    Private Sub btnFuncoes_Click(sender As Object, e As EventArgs) Handles BtnFuncoes.Click
+    Private Sub BtnFuncoes_Click(sender As Object, e As EventArgs) Handles BtnFuncoes.Click
         TxtQuery.Text = ""
         Query = _Metodos.Querys("registros_funcoes")
         AtualizaDatagrid(Query, Conexao)
